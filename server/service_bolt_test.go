@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	challengestore "scep/challenge/bolt"
-	scepdepot "scep/depot"
-	boltdepot "scep/depot/bbolt"
-	"scep/scep"
-	scepserver "scep/server"
+	challengestore "github.com/wangcb/scep/challenge/bolt"
+	scepdepot "github.com/wangcb/scep/depot"
+	boltdepot "github.com/wangcb/scep/depot/bbolt"
+	"github.com/wangcb/scep/scep"
+	scepserver "github.com/wangcb/scep/server"
 )
 
 func TestCaCert(t *testing.T) {

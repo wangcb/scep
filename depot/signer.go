@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	"scep/cryptoutil"
-	"scep/scep"
+	"github.com/wangcb/scep/cryptoutil"
+	"github.com/wangcb/scep/scep"
 )
 
 // Signer signs x509 certificates and stores them in a Depot

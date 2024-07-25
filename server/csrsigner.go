@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"errors"
 
-	"scep/scep"
+	"github.com/wangcb/scep/scep"
 )
 
 // CSRSigner is a handler for CSR signing by the CA/RA

@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"scep/cryptoutil/x509util"
+	"github.com/wangcb/scep/cryptoutil/x509util"
 )
 
 const (

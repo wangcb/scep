@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	challengestore "scep/challenge/bolt"
-	"scep/scep"
-	scepserver "scep/server"
+	challengestore "github.com/wangcb/scep/challenge/bolt"
+	"github.com/wangcb/scep/scep"
+	scepserver "github.com/wangcb/scep/server"
 )
 
 func TestDynamicChallenge(t *testing.T) {

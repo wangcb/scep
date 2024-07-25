@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"scep/cryptoutil"
+	"github.com/wangcb/scep/cryptoutil"
 )
 
 // CACert represents a new self-signed CA certificate

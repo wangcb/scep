@@ -10,7 +10,7 @@ import (
 	"go.etcd.io/bbolt"
 	"math/big"
 
-	"scep/depot"
+	"github.com/wangcb/scep/depot"
 )
 
 // Depot implements a SCEP certifiacte store using boltdb.

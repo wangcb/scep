@@ -1,4 +1,4 @@
-module scep
+module github.com/wangcb/scep
 
 go 1.21
 

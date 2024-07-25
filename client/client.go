@@ -1,7 +1,7 @@
 package scepclient
 
 import (
-	scepserver "scep/server"
+	scepserver "github.com/wangcb/scep/server"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

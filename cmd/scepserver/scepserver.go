@@ -14,11 +14,11 @@ import (
 	"strconv"
 	"syscall"
 
-	"scep/csrverifier"
-	executablecsrverifier "scep/csrverifier/executable"
-	scepdepot "scep/depot"
-	"scep/depot/file"
-	scepserver "scep/server"
+	"github.com/wangcb/scep/csrverifier"
+	executablecsrverifier "github.com/wangcb/scep/csrverifier/executable"
+	scepdepot "github.com/wangcb/scep/depot"
+	"github.com/wangcb/scep/depot/file"
+	scepserver "github.com/wangcb/scep/server"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

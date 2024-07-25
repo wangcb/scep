@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"errors"
 
-	"scep/scep"
+	"github.com/wangcb/scep/scep"
 
 	"github.com/go-kit/kit/log"
 )

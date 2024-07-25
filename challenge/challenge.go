@@ -5,8 +5,8 @@ import (
 	"crypto/x509"
 	"errors"
 
-	"scep/scep"
-	scepserver "scep/server"
+	"github.com/wangcb/scep/scep"
+	scepserver "github.com/wangcb/scep/server"
 )
 
 // Store is a dynamic challenge password cache.
